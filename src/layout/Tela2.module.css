@@ -1,0 +1,26 @@
+/* Tela2.module.css */
+  .title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #fdfdfd;
+  }
+  
+  .menubutton {
+    background-color: #007bff;
+    margin-top: 7px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menubutton:hover {
+
+    background-color: #0056b3;
+  }
+  

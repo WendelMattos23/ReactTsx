@@ -1,0 +1,58 @@
+/* Cadastro.module.css */
+
+.cadastrocontainer {
+  background-color: #0e1129;
+  border-radius: 10px;
+  max-width: 400px; /* Defina a largura máxima para melhorar a aparência em telas maiores */
+  margin: 0 auto; /* Centralize o contêiner horizontalmente */
+}
+
+.cadastroinput {
+  width: calc(100% - 20px); /* Defina a largura dos inputs para ocupar o espaço disponível */
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #1a1d3a;
+  color: #fff;
+  font-size: 16px; /* Ajuste o tamanho da fonte */
+}
+
+.linhatabuleiro {
+  display: flex;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto; /* Adicione rolagem horizontal quando necessário */
+}
+
+.quadrado {
+  background-color: #0e1129;
+  color: #e1b700;
+  font-size: 16px; /* Reduza o tamanho da fonte para caber nos quadrados */
+  width: 30px; /* Defina uma largura fixa para os quadrados */
+  height: 30px; /* Defina uma altura fixa para os quadrados */
+  margin: 28px; /* Adicione margem entre os quadrados */
+  border: 1px solid #cc2222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.5); /* Reduza a intensidade do brilho */
+  transition: background-color 0.3s ease; /* Adicione uma transição suave */
+}
+
+
+.quadrado:hover {
+  background-color: #324057;
+}
+
+.jogo {
+  margin: 5px;
+
+}
+
+.status {
+  margin-bottom: 10px;
+  box-shadow: 0 0 1rem #e1b700;
+}
